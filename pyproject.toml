@@ -75,7 +75,8 @@ disallow_any_decorated = false
 disallow_untyped_calls = false
 
 [tool.meson-python.args]
-setup = ["-Dwheel=true", "-Dtests=false"]
+setup = ["-Dwheel=true", "-Dtests=false", '--default-library=static']
+install = ['--skip-subprojects']
 
 [build-system]
 build-backend = 'mesonpy'

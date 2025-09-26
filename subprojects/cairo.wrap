@@ -1,0 +1,7 @@
+[wrap-git]
+url = https://gitlab.freedesktop.org/cairo/cairo.git
+revision = 04656d7450e229622546fd2b11496aa58c44181d
+depth = 1
+
+[provide]
+dependency_names = cairo, cairo-gobject, cairo-script-interpreter
