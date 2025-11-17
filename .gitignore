@@ -70,4 +70,4 @@ uv.lock
 build-*
 .venv
 cairo-prebuild/
-
+wheelhouse/
