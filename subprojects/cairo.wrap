@@ -1,5 +1,8 @@
 [wrap-git]
 url = https://gitlab.freedesktop.org/cairo/cairo.git
+# The latest cairo release is out of date and will bomb compilation for weird
+# reasons. People updated meson stuff in git main in the meantime. Next release
+# after v1.18.4 hopefully we can use it again. Revision has to be a commit hash
 revision = 04656d7450e229622546fd2b11496aa58c44181d
 depth = 1
 
